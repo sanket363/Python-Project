@@ -12,4 +12,8 @@ def deposit():
     
     return amount
 
-deposit()
+def main():
+    balance = deposit()
+
+if __name__ == "__main__":
+    main()
